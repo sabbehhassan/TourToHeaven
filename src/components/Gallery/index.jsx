@@ -1,16 +1,5 @@
 import React from "react";
-
-const images = [
-  "/Gallery/g1.jpg",
-  "/Gallery/g2.jpg",
-  "/Gallery/g3.jpg",
-  "/Gallery/g4.jpg",
-  "/Gallery/g5.jpg",
-  "/Gallery/g6.jpg",
-  "/Gallery/g7.jpg",
-  "/Gallery/g8.jpg",
-  "/Gallery/g9.jpg",
-];
+import galleryImages from "../../data/galleryImages";
 
 const Gallery = () => {
   return (
@@ -20,9 +9,8 @@ const Gallery = () => {
           Travel Moments Gallery
         </h2>
 
-        {/* Masonry style layout for portrait images */}
         <div className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4">
-          {images.map((src, index) => (
+          {galleryImages.map((src, index) => (
             <div
               key={index}
               className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300 break-inside-avoid"

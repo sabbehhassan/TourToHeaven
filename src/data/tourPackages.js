@@ -1,15 +1,8 @@
-import hunza from "../assets/Destinations/Hunza.jpg";
-import skardu from "../assets/Destinations/Skardu.jpg";
-import fairyMeadows from "../assets/Destinations/FairyMedows.jpg";
-import khunjerab from "../assets/Destinations/KhunjrabPass.jpg";
-import attabad from "../assets/Destinations/Attabad.jpg";
-import deosai from "../assets/Destinations/DeosaiPlains.jpg";
-
 const tourPackages = [
   {
     id: 1,
     name: "Deosai Plains",
-    image: deosai,
+    image: "/assets/Destinations/DeosaiPlains.jpg",
     price: "Rs. 40,000",
     duration: "4 Days / 3 Nights",
     description:
@@ -18,7 +11,7 @@ const tourPackages = [
   {
     id: 2,
     name: "Attabad Lake",
-    image: attabad,
+    image: "/assets/Destinations/Attabad.jpg",
     price: "Rs. 40,000",
     duration: "4 Days / 3 Nights",
     description:
@@ -27,7 +20,7 @@ const tourPackages = [
   {
     id: 3,
     name: "Khunjerab Pass",
-    image: khunjerab,
+    image: "/assets/Destinations/KhunjrabPass.jpg",
     price: "Rs. 40,000",
     duration: "4 Days / 3 Nights",
     description:
@@ -36,7 +29,7 @@ const tourPackages = [
   {
     id: 4,
     name: "Fairy Meadows Escape",
-    image: fairyMeadows,
+    image: "/assets/Destinations/FairyMedows.jpg",
     price: "Rs. 40,000",
     duration: "4 Days / 3 Nights",
     description:
@@ -45,7 +38,7 @@ const tourPackages = [
   {
     id: 5,
     name: "Skardu Expedition",
-    image: skardu,
+    image: "/assets/Destinations/Skardu.jpg",
     price: "Rs. 55,000",
     duration: "6 Days / 5 Nights",
     description:
@@ -54,7 +47,7 @@ const tourPackages = [
   {
     id: 6,
     name: "Hunza Adventure",
-    image: hunza,
+    image: "/assets/Destinations/Hunza.jpg",
     price: "Rs. 45,000",
     duration: "5 Days / 4 Nights",
     description:

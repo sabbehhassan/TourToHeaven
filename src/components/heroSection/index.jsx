@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import heroImages from "../../assets/HeroSection/images";
+import heroImages from "../../data/heroimages";
 
 const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
