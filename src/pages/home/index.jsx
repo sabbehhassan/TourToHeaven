@@ -3,6 +3,7 @@ import HeroSection from "../../components/heroSection";
 import PopularDestinations from "../../components/PopularDestinations";
 import TourPackages from "../../components/TourPackages";
 import Testimonials from "../../components/Testimonials";
+import Gallery from "../../components/Gallery/indec";
 
 const Home = () => {
   return (
@@ -11,6 +12,8 @@ const Home = () => {
       <PopularDestinations />
       <TourPackages />
       <Testimonials />
+      <Gallery />
+
       {/* Add Intro, Destinations, Contact later */}
     </>
   );
