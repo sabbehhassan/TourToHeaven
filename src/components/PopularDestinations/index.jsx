@@ -4,7 +4,7 @@ import popularDestinations from "../../data/popularDestinations";
 const PopularDestinations = () => {
   return (
     <section className="py-16 px-4 bg-gray-100">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-8xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
           Popular Destinations in Gilgit Baltistan
         </h2>
