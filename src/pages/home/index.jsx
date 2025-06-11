@@ -4,6 +4,7 @@ import PopularDestinations from "../../components/PopularDestinations";
 import TourPackages from "../../components/TourPackages";
 import Testimonials from "../../components/Testimonials";
 import Gallery from "../../components/Gallery";
+import StayOptions from "../../components/StayOptions";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <HeroSection />
       <PopularDestinations />
       <TourPackages />
+      <StayOptions />
       <Testimonials />
       <Gallery />
 
