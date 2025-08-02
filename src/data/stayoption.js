@@ -32,6 +32,22 @@ const stayOptions = [
     description: "Centrally located with easy access to local markets.",
     price: "PKR 25,000 / night",
   },
+  {
+    id: 5,
+    location: "Skardu",
+    name: "Signature Hotel Skardu",
+    image: "/assets/Stay/signature Skardu Hotel.jpeg",
+    description: "Centrally located with easy access to local markets.",
+    price: "PKR 25,000 / night",
+  },
+  {
+    id: 6,
+    location: "Hunza",
+    name: "Paradise Hotel Hunza",
+    image: "/assets/Stay/Hunza Paradise.jpg",
+    description: "Centrally located with easy access to local markets.",
+    price: "PKR 25,000 / night",
+  },
 ];
 
 export default stayOptions;
