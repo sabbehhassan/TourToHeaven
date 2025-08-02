@@ -18,7 +18,7 @@ const StayOptions = () => {
               <img
                 src={stay.image}
                 alt={stay.name}
-                className="w-full h-60 object-cover"
+                className="w-full h-60 object-contain"
               />
               <div className="p-5">
                 <h3 className="text-xl font-semibold text-gray-800">
