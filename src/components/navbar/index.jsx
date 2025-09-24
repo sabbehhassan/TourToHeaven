@@ -1,5 +1,4 @@
 // src/components/Navbar.jsx
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -25,8 +24,8 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Desktop Links */}
-        <div className="hidden md:flex gap-6 text-gray-800 font-medium">
+        {/* Desktop Links (only large screens and above) */}
+        <div className="hidden lg:flex gap-6 text-gray-800 font-medium">
           <Link to="/" className="hover:text-cyan-600">
             Home
           </Link>
@@ -44,8 +43,8 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Auth Buttons */}
-        <div className="hidden md:flex gap-4">
+        {/* Auth Buttons (large screens only) */}
+        <div className="hidden lg:flex gap-4">
           <Link
             to="/login"
             className="text-cyan-700 border border-cyan-700 px-4 py-1 rounded hover:bg-cyan-700 hover:text-white transition"
@@ -60,17 +59,17 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Mobile Menu Icon */}
-        <div className="md:hidden">
+        {/* Mobile & Tablet Menu Icon */}
+        <div className="lg:hidden">
           <button onClick={toggleMenu} className="text-cyan-700 text-2xl">
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile & Tablet Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-white shadow-lg px-4 pt-4 pb-6 space-y-4">
+        <div className="lg:hidden bg-white shadow-lg px-4 pt-4 pb-6 space-y-4">
           <Link
             to="/"
             onClick={closeMenu}
